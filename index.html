@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>京途｜青年户外生活社区</title>
+  <style>
+    :root{--bg:#080d0a;--green:#8ecf74;--text:#f5f4ee;--muted:#aeb6aa;--line:rgba(255,255,255,.12)}
+    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:radial-gradient(circle at 20% 0%,rgba(142,207,116,.28),transparent 28%),radial-gradient(circle at 90% 12%,rgba(54,95,66,.38),transparent 34%),linear-gradient(180deg,#050705 0%,#0d130e 45%,#050705 100%);color:var(--text)}
+    a{text-decoration:none;color:inherit}.nav{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:18px 6vw;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0));backdrop-filter:blur(10px)}.brand{font-weight:800;letter-spacing:.18em}.nav a{font-size:14px;color:var(--muted);margin-left:22px}
+    .hero{min-height:100vh;padding:22vh 6vw 8vh;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:10vh 6vw 8vh;border-radius:36px;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.72)),radial-gradient(circle at 65% 35%,rgba(255,255,255,.22),transparent 8%),linear-gradient(135deg,#172218,#263c29 35%,#0b0f0c 72%);box-shadow:0 40px 120px rgba(0,0,0,.55);z-index:-1}
+    .eyebrow{color:var(--green);font-weight:700;letter-spacing:.18em;margin-bottom:20px}h1{font-size:clamp(56px,10vw,128px);line-height:.92;margin:0 0 26px;letter-spacing:-.06em}.slogan{font-size:clamp(22px,3vw,42px);line-height:1.2;max-width:820px;margin:0 0 36px}.sub{max-width:680px;color:var(--muted);font-size:18px;line-height:1.85}.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}.btn{padding:14px 22px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.08);font-weight:650}.btn.primary{background:var(--green);color:#071007;border-color:transparent}
+    section{padding:80px 6vw}.section-title{font-size:40px;letter-spacing:-.04em;margin:0 0 16px}.section-desc{color:var(--muted);font-size:17px;line-height:1.8;max-width:760px;margin-bottom:32px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{min-height:220px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.11),rgba(255,255,255,.05));padding:24px;backdrop-filter:blur(20px);display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 18px 60px rgba(0,0,0,.26)}.card.big{grid-column:span 2;min-height:290px}.tag{color:var(--green);font-size:13px;font-weight:700;letter-spacing:.08em}.card h3{font-size:26px;margin:10px 0 12px;letter-spacing:-.03em}.card p{color:var(--muted);line-height:1.7;margin:0}.arrow{margin-top:24px;font-weight:700}.photo{background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.65)),linear-gradient(135deg,#334d37,#0f1710 60%,#070907);position:relative;overflow:hidden}.photo:after{content:"真实照片占位";position:absolute;right:18px;bottom:16px;color:rgba(255,255,255,.36);font-size:12px;letter-spacing:.12em}
+    .links{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.link-card{padding:22px;border-radius:24px;border:1px solid var(--line);background:rgba(255,255,255,.06)}.link-card strong{display:block;font-size:20px;margin-bottom:8px}.link-card span{color:var(--muted);line-height:1.6;font-size:14px}footer{padding:80px 6vw 50px;color:var(--muted);border-top:1px solid var(--line)}.footer-logo{font-size:32px;color:var(--text);font-weight:800;letter-spacing:.12em;margin-bottom:12px}
+    @media(max-width:900px){.grid,.links{grid-template-columns:1fr}.card.big{grid-column:span 1}.nav a{display:none}.hero:before{inset:9vh 4vw 6vh;border-radius:28px}}
+  </style>
+</head>
+<body>
+  <div class="nav"><div class="brand">JINGTU</div><div><a href="#activities">活动</a><a href="#open">公开建设</a><a href="#join">加入</a></div></div>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">青年户外生活社区</div>
+      <h1>京途</h1>
+      <div class="slogan">和有趣的人，一起去探索更广阔的世界。</div>
+      <div class="sub">一个正在公开建设中的青年户外生活社区。我们把每一次活动、每一次讨论、每一次改变，都真实记录下来。</div>
+      <div class="buttons"><a class="btn primary" href="#activities">查看最近活动</a><a class="btn" href="#open">了解京途</a></div>
+    </section>
+    <section><h2 class="section-title">不是旅行团，也不是陌生人拼局。</h2><div class="section-desc">京途希望连接一群靠谱、舒服、同频、愿意长期一起玩的年轻人。活动只是入口，真正留下来的，是一起走过的路和慢慢熟起来的人。</div><div class="grid"><div class="card"><div><div class="tag">01</div><h3>靠谱的人</h3><p>守时、AA爽快、边界清楚，舒服相处。</p></div></div><div class="card"><div><div class="tag">02</div><h3>真实活动</h3><p>徒步、自驾、露营、城市探索和短途旅行。</p></div></div><div class="card"><div><div class="tag">03</div><h3>公开建设</h3><p>规则、复盘、结算和产品进展持续公开。</p></div></div><div class="card"><div><div class="tag">04</div><h3>长期同行</h3><p>不追求大群，先把同频的人聚起来。</p></div></div></div></section>
+    <section id="activities"><h2 class="section-title">最近活动</h2><div class="section-desc">官网只做入口，具体说明和报名放在飞书，方便我们快速更新。</div><div class="grid"><a class="card big photo" href="#"><div><div class="tag">报名中</div><h3>乌兰布统</h3><p>7.10 - 7.12｜草原自驾｜北京往返</p></div><div class="arrow">查看详情 / 报名</div></a><a class="card big photo" href="#"><div><div class="tag">筹备中</div><h3>青甘大环线</h3><p>7.18 - 7.26｜兰州集散｜飞机 + 自驾</p></div><div class="arrow">预报名</div></a><a class="card" href="#"><div><div class="tag">活动档案</div><h3>河头老街</h3><p>第一届同学，一日自驾回顾。</p></div><div class="arrow">查看回顾</div></a><a class="card" href="#"><div><div class="tag">路线灵感池</div><h3>推荐路线</h3><p>有想去的地方，可以一起完善后发布。</p></div><div class="arrow">提交想法</div></a></div></section>
+    <section id="open"><h2 class="section-title">公开建设</h2><div class="section-desc">别人展示结果，京途记录成长过程。我们会持续公开活动复盘、费用结算、社区规则、产品建设和共创故事。</div><div class="links"><a class="link-card" href="#"><strong>京途 · 公开建设</strong><span>从0到1，记录京途怎么一步步长出来。</span></a><a class="link-card" href="#"><strong>京途 FAQ</strong><span>新人最常问的问题，先看这里。</span></a><a class="link-card" href="#"><strong>活动费用说明</strong><span>AA、车辆、社区共建费怎么计算。</span></a><a class="link-card" href="#"><strong>同学录</strong><span>每一届同学一起走过的故事。</span></a><a class="link-card" href="#"><strong>社区共创故事</strong><span>因为大家的建议，京途发生了哪些变化。</span></a><a class="link-card" href="#"><strong>活动中心</strong><span>所有正在报名和筹备中的活动入口。</span></a></div></section>
+    <section id="join"><h2 class="section-title">加入京途</h2><div class="section-desc">新朋友主要通过老同学推荐、参加活动后彼此认可、外部了解京途后完成简单了解流程加入。我们更在意靠谱、舒服、同频，而不是人数。</div><div class="buttons"><a class="btn primary" href="#">进入活动中心</a><a class="btn" href="#">查看京途主页</a></div></section>
+  </main>
+  <footer><div class="footer-logo">京途</div><div>Since 2026｜探索｜连接｜成长</div></footer>
+</body>
+</html>
